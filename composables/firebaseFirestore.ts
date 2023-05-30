@@ -78,7 +78,7 @@ const getFilteredDocs = async (collectionName:string, orderDocBy:string, numberO
   return { data, lastVisible, loading }
 }
 
-const updateOneDoc = async (collection: string, uid: string) => {
+const updateOneDoc = async (collection: string, uid: string, data:(unknown | {})) => {
   try {
     // --
   } catch (error) {
